@@ -1,5 +1,13 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
 main {
     display: flex;
+    width: 100%;
+    min-height: 100vh;
+    align-items: center;
 }
 
 .container {
@@ -7,8 +15,8 @@ main {
     flex-basis: 30%;
     flex-direction: column;
     justify-content: space-between;
-    /* width: 400px; */
-    min-height: 100vh;
+    background-color: grey;
+
 }
 
 .contacto1 {
@@ -77,24 +85,25 @@ button {
 /* imagen central */
 
 .principal {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.imgcentral {
     flex-basis: 70%;
-
+    min-width: 10vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: azure;
+    align-items: center;
 
 }
 
 .hand {
     width: 400px;
     height: 400px;
-    /* justify-content: center;
-    align-items: center; */
 }
 
 .leyenda h1 {
-    font-size: x-large;
+    font-size: 4rem;
+}
+
+.leyenda p {
+    text-align: justify;
 }
