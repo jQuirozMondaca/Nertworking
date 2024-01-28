@@ -1,0 +1,100 @@
+main {
+    display: flex;
+}
+
+.container {
+    /* display: flex; */
+    flex-basis: 30%;
+    flex-direction: column;
+    justify-content: space-between;
+    /* width: 400px; */
+    min-height: 100vh;
+}
+
+.contacto1 {
+    display: flex;
+    justify-content: space-between;
+    /* border: solid; */
+    border-style: inset;
+
+    padding: 1rem;
+    margin: 0;
+}
+
+.estado {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.img {
+    /* display: flex; */
+    /* flex-basis: 30%; */
+    margin-top: 2rem;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    width: 50px;
+    height: 50px;
+
+    padding-left: 0;
+
+}
+
+button {
+    width: 250px;
+    height: 50px;
+    background-color: rgb(195, 159, 228);
+    color: aliceblue;
+    border-bottom: none;
+}
+
+.containerButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    border-style: inset;
+}
+
+.contacto {
+    display: flex;
+    justify-content: space-around;
+    border-style: inset;
+    padding: 1rem;
+    margin: 0;
+}
+
+.info {
+    flex-basis: 70%;
+    justify-content: space-around;
+    align-items: center;
+    border: 1cap;
+    padding: 1rem;
+    margin: 0;
+}
+
+/* imagen central */
+
+.principal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imgcentral {
+    flex-basis: 70%;
+
+
+}
+
+.hand {
+    width: 400px;
+    height: 400px;
+    /* justify-content: center;
+    align-items: center; */
+}
+
+.leyenda h1 {
+    font-size: x-large;
+}
